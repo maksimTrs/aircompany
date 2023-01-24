@@ -1,3 +1,4 @@
+import airports.Airport;
 import models.MilitaryType;
 import planes.MilitaryPlane;
 import planes.PassengerPlane;
@@ -6,7 +7,7 @@ import planes.Plane;
 import java.util.Arrays;
 import java.util.List;
 
-public class OopDemo {
+public class AircompanyDemo {
     static List<Plane> planesPark = Arrays.asList(
             new PassengerPlane("Boeing-737", 900, 12000, 60500, 164),
             new PassengerPlane("Boeing-737-800", 940, 12300, 63870, 192),
