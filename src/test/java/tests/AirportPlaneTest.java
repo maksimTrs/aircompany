@@ -1,4 +1,4 @@
-package qa.tests;
+package tests;
 
 import airports.Airport;
 import models.ClassificationLevel;
